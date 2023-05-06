@@ -1,5 +1,5 @@
-import React from 'react';
-import Base from './components/Base';
+import React from "react";
+import Base from "./components/Base";
 
 function App() {
   return <Base />;
