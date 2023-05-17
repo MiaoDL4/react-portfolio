@@ -8,7 +8,7 @@
     background-color: #415a77;
     padding: 0;
     margin: 0.5rem;
-    height: 20dvh;
+    height: 15dvh;
     transition: width 0.3s, height 0.3s;
     overflow: hidden;
 }
@@ -31,8 +31,6 @@
     height: 100%;
     object-fit: cover;
     filter: blur(4px);
-    transition: filter 0.3s;
+
 };
-.image:hover {
-    filter: none;
-}
+

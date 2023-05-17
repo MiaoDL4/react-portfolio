@@ -7,3 +7,6 @@
     color: #1b263b;
     text-align: center;
 }
+#comment-box{
+    min-height: 10vh ;
+}

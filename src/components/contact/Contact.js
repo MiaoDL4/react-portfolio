@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { motion as m } from "framer-motion";
@@ -14,11 +14,11 @@ function Contact() {
       comment: "",
     },
     validationSchema: Yup.object({
-      name: Yup.string().required("PLease enter a name").max(40, "There is a max of 40 characters"),
+      name: Yup.string().required("Please enter a name").max(40, "There is a max of 40 characters"),
       email: Yup.string()
         .email("invalid email address!")
         .required("Please enter an email"),
-      comment: Yup.string().max(300, "There is a max of 300 characters"),
+      comment: Yup.string().required("Please leave a comment").max(300, "There is a max of 300 characters"),
     }),
 
     onSubmit: (values, { resetForm }) => {
@@ -28,12 +28,14 @@ function Contact() {
   });
 
   return (
+    
     <m.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.2, ease: "easeOut" }}
     >
+    <h1>Contact Me</h1>
       <Form noValidate onSubmit={formik.handleSubmit}>
         <Form.Floating className="mb-3">
           <Form.Control
@@ -72,11 +74,13 @@ function Contact() {
             name="comment"
             value={formik.values.comment}
             onChange={formik.handleChange}
+            onBlur={formik.handleBlur}
+            id="comment-box"
           />
           <label className={`${formik.errors.comment ? "error" : "normal"}`}>
             {formik.touched.comment && formik.errors.comment
               ? formik.errors.comment
-              : "comment"}
+              : "Comment"}
           </label>
         </Form.Floating>
 

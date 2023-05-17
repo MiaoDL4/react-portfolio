@@ -9,13 +9,13 @@ function Footer() {
       <Container>
         <Nav className="justify-content-center">
           <Nav.Item>
-            <Nav.Link href="https://github.com/MiaoDL4">github</Nav.Link>
+            <Nav.Link href="https://github.com/MiaoDL4">Github</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link href="https://www.linkedin.com/in/dong-miao-075a3825a">Linkin</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/needsWord">TBD</Nav.Link>
+            <Nav.Link href="https://www.instagram.com/papameowyin/">Instagram</Nav.Link>
           </Nav.Item>
         </Nav>
       </Container>

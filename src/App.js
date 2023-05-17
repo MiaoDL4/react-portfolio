@@ -5,10 +5,11 @@ import Footer from "./components/Footer";
 import { About } from "./components/About";
 import Contact from "./components/contact/Contact";
 import { Portfolio } from "./components/portfolio/Portfolio";
-import { Resume } from "./components/Resume";
-import { Home } from "./components/Home";
+import { Resume } from "./components/resume/Resume";
+import { Home } from "./components/home/Home";
 
 import { Container } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import { AnimatePresence } from "framer-motion";
 import "./app.css";

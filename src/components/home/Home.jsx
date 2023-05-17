@@ -1,16 +1,16 @@
 import React from "react";
 import { motion as m } from "framer-motion";
 
+import "./style.css";
+
 export function Home() {
-  
-  
   const getWords = (str) => {
     str = str.trim();
     return str.split(/\s+/);
   };
 
-  const sentence1 = getWords("Hello, l'm learning to become a Web Developer.")
-  const sentence2 = getWords("This is a beginning of a story.")
+  const sentence1 = getWords("Hello, l'm learning to become a Web Developer.");
+  const sentence2 = getWords("This is a beginning of a story.");
 
   const container = {
     hidden: { opacity: 0 },
@@ -39,33 +39,28 @@ export function Home() {
     },
   };
 
-
   return (
     <m.div
       style={{ overflow: "hidden", display: "flex", fontSize: "2rem" }}
       variants={container}
       initial="hidden"
       animate="visible"
+      className="column"
     >
-      {sentence1.map((word, index) => (
-        <m.span
-          variants={child}
-          style={{ marginRight: "5px" }}
-          key={index}
-        >
-          {word}
-        </m.span>
-      ))}
-      
-      {sentence2.map((word, index) => (
-        <m.span
-          variants={child}
-          style={{ marginRight: "5px" }}
-          key={index}
-        >
-          {word}
-        </m.span>
-      ))}
+      <div className="text">
+        {sentence1.map((word, index) => (
+          <m.span variants={child} style={{ marginRight: "5px" }} key={index}>
+            {word}
+          </m.span>
+        ))}
+      </div>
+      <div className="text">
+        {sentence2.map((word, index) => (
+          <m.span variants={child} style={{ marginRight: "5px" }} key={index}>
+            {word}
+          </m.span>
+        ))}
+      </div>
     </m.div>
   );
 }

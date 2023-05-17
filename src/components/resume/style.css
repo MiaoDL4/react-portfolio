@@ -1,0 +1,6 @@
+a{
+    all: unset;
+}
+a:hover{
+    color: #e0e1dd7e;
+}
