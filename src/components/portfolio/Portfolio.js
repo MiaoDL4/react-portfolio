@@ -73,7 +73,7 @@ export function Portfolio() {
                   <h1>{card.projectName}</h1>
                 </div>
                 <m.img
-                  className="image"
+                  className="initImage"
                   src={card.image}
                   alt={card.projectName}
                   whileHover={{
