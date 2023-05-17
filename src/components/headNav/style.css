@@ -1,0 +1,15 @@
+.header{
+    font-size: x-large;
+    font-weight: 500;
+
+}
+.color{
+    color: #e0e1dd !important;
+}
+.color:hover{
+    color: #778da9 !important;
+}
+.active{
+    color: #778da9 !important;
+}
+

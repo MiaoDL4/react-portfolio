@@ -1,0 +1,9 @@
+.error{
+    color: red;
+    font-weight: 700;
+    text-align: center;
+}
+.normal{
+    color: #1b263b;
+    text-align: center;
+}
