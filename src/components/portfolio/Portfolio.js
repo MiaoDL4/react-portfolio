@@ -51,7 +51,7 @@ export function Portfolio() {
   return (
     <>
       <m.div
-        className=".card-row-container"
+        className="flexcontainer"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -64,7 +64,7 @@ export function Portfolio() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.2, delay: i * 0.15 }}
-                className="card"
+                className="cardProject"
                 whileHover={{
                   height: "30dvh",
                 }}
