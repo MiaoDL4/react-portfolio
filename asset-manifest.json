@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/MiaoDL4/react-portfolio/static/css/main.8073ed7d.css",
-    "main.js": "/MiaoDL4/react-portfolio/static/js/main.061d222b.js",
-    "index.html": "/MiaoDL4/react-portfolio/index.html",
-    "main.8073ed7d.css.map": "/MiaoDL4/react-portfolio/static/css/main.8073ed7d.css.map",
-    "main.061d222b.js.map": "/MiaoDL4/react-portfolio/static/js/main.061d222b.js.map"
+    "main.css": "/react-portfolio/static/css/main.8073ed7d.css",
+    "main.js": "/react-portfolio/static/js/main.061d222b.js",
+    "index.html": "/react-portfolio/index.html",
+    "main.8073ed7d.css.map": "/react-portfolio/static/css/main.8073ed7d.css.map",
+    "main.061d222b.js.map": "/react-portfolio/static/js/main.061d222b.js.map"
   },
   "entrypoints": [
     "static/css/main.8073ed7d.css",
