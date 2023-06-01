@@ -4,45 +4,45 @@ import "./style.css";
 
 const projects = [
   {
+    projectName: "Snake",
+    Github: "https://github.com/MiaoDL4/The-Snake-game",
+    Page: "https://rocky-temple-37557.herokuapp.com/",
+    image: "./images/snake.png",
+    id: 1,
+  },
+  {
     projectName: "Skills Matcher",
     Github: "https://github.com/MiaoDL4/spicy-pencils-skills-matcher",
     Page: "https://spicy-pencils-skills-matcher-1.herokuapp.com/",
     image: "./images/Skillsmatcher.png",
-    id: 1,
+    id: 2,
   },
   {
     projectName: "Wellness",
     Github: "https://github.com/MiaoDL4/Wellness-ap",
     Page: "https://rippi9.github.io/Wellness-ap/",
     image: "./images/Well.png",
-    id: 2,
+    id: 3,
   },
   {
     projectName: "Just Another Text Editor PWA",
     Github: "https://github.com/MiaoDL4/JATEPWA",
     Page: "https://radiant-scrubland-43931.herokuapp.com/",
     image: "./images/JatePWA.png",
-    id: 3,
+    id: 4,
   },
   {
     projectName: "Weather API",
     Github: "https://miaodl4.github.io/WhatsTheWeather/",
     Page: "https://github.com/MiaoDL4/WhatsTheWeather",
     image: "./images/Weather.png",
-    id: 4,
+    id: 5,
   },
   {
     projectName: "Note taker",
     Github: "https://github.com/MiaoDL4/Note-taker-of-love",
     Page: "https://salty-wave-26367.herokuapp.com/",
     image: "./images/notetaker.png",
-    id: 5,
-  },
-  {
-    projectName: "Project 3",
-    Github: "",
-    Page: "",
-    image: "./images/",
     id: 6,
   },
 ];
