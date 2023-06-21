@@ -17,7 +17,7 @@ function HeadNav() {
       <Navbar>
         <Container>
           <Navbar.Brand as={Link} to="/" className="header color">
-            Project title
+          DM Profile
           </Navbar.Brand>
           <Nav className="ms-auto">
             <Nav.Link
