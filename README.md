@@ -14,7 +14,7 @@ It is made with several technology including react-router-dom, react-bootstrap, 
 
 ## Usage
 
-there is not much to it but to have a look at it, heres the Link: https://miaodl4.github.io/react-portfolio/v
+there is not much to it but to have a look at it, heres the Link: https://miaodl4.github.io/react-portfolio/
 
 ## Credits
 
